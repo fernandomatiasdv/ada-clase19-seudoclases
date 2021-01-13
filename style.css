@@ -1,0 +1,58 @@
+input[type=text]{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: 80px;
+    font-size: 36px;
+}
+
+input[type=email]:valid{
+    background-color: greenyellow;
+    color: white;
+}
+input[type=email]:invalid{
+    background-color: red;
+    color: white;
+}
+
+input[type=text]:disabled{
+    background-color: gray;
+    color: white;
+}
+
+input[type=text]:focus{
+    background-color: green;
+}
+input[type=text]:empty{
+    width: 100%
+}
+
+a:link{
+    background-color: lightsalmon;
+
+}
+a:visited{
+    background-color: lawngreen;
+
+}
+a:active{
+    background-color: indigo;
+}
+
+
+
+
+
+
+
+
+
+textarea{
+    width: 100%;
+    height: 50px;
+}
+
+
+
+

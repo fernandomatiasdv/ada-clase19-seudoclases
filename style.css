@@ -40,8 +40,18 @@ a:active{
     background-color: indigo;
 }
 
+input[type=checkbox]{
+    border-radius: 0;
+}
 
 
+input[type=checkbox]:checked{
+    
+    background-color: lightseagreen;
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 1px 3px black;
+}
 
 
 

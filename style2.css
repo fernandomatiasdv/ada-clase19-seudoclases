@@ -1,0 +1,75 @@
+/*
+li:first-child{
+    font-size: 24px;
+}
+
+ul li:last-child{
+    font-size: 36px;
+}
+
+
+span:first-child{
+    color: green;
+}
+
+li:nth-child(2){
+    color: red;  
+}
+
+li:nth-child(3){
+    color: blue;  
+}
+*/
+
+/*odd es impar
+li:nth-child(odd){
+    background-color: lightgray;
+}
+*/
+
+/*even es par
+li:nth-child(even){
+    background-color: black;
+    color: yellow;
+}
+
+li:nth-child(3n){
+    background-color: lightgray;
+}
+li:nth-last-child(2n){
+    color:lightsalmon;
+}
+
+
+p:nth-child(3n){
+    background-color: lightgray;
+}
+p:nth-last-child(2n){
+    color:lightsalmon;
+}
+
+*/
+
+.colores div:nth-of-type(3){
+    color: blue;
+}
+
+.colores div:first-of-type{
+    color:magenta;
+}
+
+.colores span:last-of-type{
+    color:mediumaquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
